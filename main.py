@@ -31,7 +31,7 @@ ScreenManager:
                 ActionPrevious:
                     title:'     ITIMUS ACADEMY'
                     font_size: 100
-                    app_icon: 'menu1.png'
+                    app_icon: 'image/menu1.png'
                     with_previous: False
                     on_press: root.manager.current = 'me'
         
@@ -39,7 +39,7 @@ ScreenManager:
         
         id: sul
         base_direction:'weak_ltr'
-               #hadle_image_left: 'kalem.png'
+               #hadle_image_left: 'image/kalem.png'
         hint_text: 'Write the text'
         hint_text_color:[.5,.3,.5,1]
         size_hint:  .6, .3
@@ -77,7 +77,7 @@ ScreenManager:
 					ActionPrevious:
 						title:'     ITIMUS ACADEMY'
 						font_size: 80
-						app_icon: 'menu1.png'
+						app_icon: 'image/menu1.png'
 						with_previous: False
 						on_press: root.manager.current = 'menu'
 			GridLayout:
